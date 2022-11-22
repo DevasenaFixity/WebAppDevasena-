@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewData["Title"] = "GetDataByShpdDate";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h5>GetDataByShpdDate</h5>
+@Html.BeginForm("GetDataByShpdDate","DDL",FormMethod.Post)
+{
+    @Html.DropDownList("test", new SelectList(ViewBag.data,"ShippedDate","ShippedDate"),"Please select", new { @id ="ShippedDate"})
+   <table class="table table-dark table-hover">
+  
+}
+</table>
+
+

@@ -1,0 +1,97 @@
+﻿@using WebAppDevasena.Models;
+@model DEVAADDRESS;
+   
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>InsertBook</title>
+    <meta name="viewport" content="width=device-width" />
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://www.markuptag.com/bootstrap/5/css/bootstrap.min.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.6/jquery.validate.unobtrusive.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/4.0.0/jquery.validate.unobtrusive.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajax-unobtrusive/3.2.6/jquery.unobtrusive-ajax.min.js"></script>
+   
+<script>
+    $(document).ready(function () {
+
+        $("#button3").click(function () {
+            $("#div3").load("/Task/Index");
+        });
+
+    });
+</script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="signup-form mt-5 border p-4 bg-light shadow">
+                    
+                    
+                    <form id="my_form" asp-action="Insert" method="post" data-ajax="true" data-ajax-method="post" data-ajax-update="#address" data-ajax-url="@Url.Action("Insert","Task")">
+                        @Html.AntiForgeryToken()
+@using (Html.BeginForm())
+                    {
+                        @Html.AntiForgeryToken()
+                        <h4 class="mb-5 text-secondary">Create Your Account</h4>
+                        <div class="row">
+                            <div class="mb-3 col-md-6">
+                                <label>STREET<span class="text-danger">*</span></label>
+                                @Html.TextBoxFor(model => model.STREET, new { @class = "form-control", placeholder="Enter STREET" })
+                                @Html.ValidationMessageFor(model => model.STREET, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label>MANDAL<span class="text-danger">*</span></label>
+                                @Html.TextBoxFor(model => model.MANDAL, new { @class = "form-control", placeholder="Enter MANDAL" })
+                                @Html.ValidationMessageFor(model => model.MANDAL, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label>DIST<span class="text-danger">*</span></label>
+                                @Html.TextBoxFor(model => model.DIST, new { @class = "form-control", placeholder="Enter DIST" })
+                                @Html.ValidationMessageFor(model => model.DIST, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label>STATE<span class="text-danger">*</span></label>
+                                @Html.EditorFor(model => model.STATE, new { htmlAttributes = new { @class = "form-control input-md", @placeholder = "Enter STATE"} })
+                                @Html.ValidationMessageFor(model => model.STATE, "", new { @class = "text-danger" })
+                            </div>
+
+                            <div class="mb-3 col-md-6">
+                                <label>PINCODE<span class="text-danger">*</span></label>
+                                @Html.EditorFor(model => model.PINCODE, new { htmlAttributes = new { @class = "form-control input-md", @placeholder = "Enter PINCODE"} })
+                                @Html.ValidationMessageFor(model => model.PINCODE, "", new { @class = "text-danger" })
+                            </div>
+                         
+                                <div class="col-md-7">
+                                <p class="text-center mt-3 text-secondary">If you have account,  @Html.ActionLink("Insertdata","Insert","DEVAADDRESS")</p>
+                                </div>A
+                                <div class="col-md-5">
+                                    <input type="submit" class="btn btn-primary float-end" value="Submit">
+
+                                </div>
+                            </div>
+                        
+                    }
+                    </form>
+                    <button type="button" id="button3"> Display</button>
+
+    <div id="div3"></div>
+                </div>
+                </div>
+                </div>
+                </div>
+</body>
+</html>
+

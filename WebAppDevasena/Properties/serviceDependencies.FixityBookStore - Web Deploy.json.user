@@ -1,0 +1,45 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2022-09-19T16:36:26.879152Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "f1247cf9-c131-4655-a275-3553248e7137"
+    },
+    "FixityBookStore.resourceGroupLocation": {
+      "Name": "FixityBookStore.resourceGroupLocation",
+      "Type": null,
+      "Value": "australiaeast"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "devasenadb"
+    },
+    "FixityBookStore.resourceGroupName": {
+      "Name": "FixityBookStore.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "devasenadb"
+    },
+    "FixityBookStore.resourceName": {
+      "Name": "FixityBookStore.resourceName",
+      "Type": null,
+      "Value": "FixityBookStore"
+    },
+    "FixityBookStore.subscriptionId": {
+      "Name": "FixityBookStore.subscriptionId",
+      "Type": "subscription",
+      "Value": "f1247cf9-c131-4655-a275-3553248e7137"
+    },
+    "subscriptionId": {
+      "Name": "subscriptionId",
+      "Type": "subscription",
+      "Value": "f1247cf9-c131-4655-a275-3553248e7137"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+﻿@model IEnumerable<WebAppDevasena.Models.BOOKDETAILSModel>
+@{
+    ViewData["Title"] = "DisplayBook";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h1>DisplayBook</h1>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DisplayBook</title>
+</head>
+<body>
+    <div class="container">
+        Welcome To Display Data Page
+    </div>
+    <table class="table table-striped">
+        <tr>
+            <th>BID</th>
+            <th>BNAME</th>
+            <th>BAUTHOR</th>
+            <th>BPUBLICATION</th>
+            <th>BPRICE</th>
+            <th>BPURCHASEDATE</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.BID</td>
+                <td>@item.BNAME</td>
+                <td>@item.BAUTHOR</td>
+                <td>@item.BPUBLICATION</td>
+                <td>@item.BPRICE</td>
+                <td>@item.BPURCHASEDATE</td>
+                <td>
+                    @Html.ActionLink("UpdateData","UPDATE","Book", new {BID = item.BID},null)
+                    @Html.ActionLink("DeleteData","DELETE","Book", new { BID= item.BID},null)
+                </td>
+            </tr>
+        }
+
+    </table>
+
+
+</body>
+</html>
+
+

@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewData["Title"] = "GetByshpddate";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h6>GetByshpddate</h6>
+@using (Html.BeginForm())
+{
+    if (ViewData["Val"] == null)
+    {
+        @Html.DropDownList("test", new SelectList(ViewBag.data,"ShippedDate","ShippedDate"), "Please select", new { @id = "ShippedDate" })
+        <input type="submit" value="submit" />
+    }
+    else
+    {
+        @Html.DropDownList("test", new SelectList(ViewBag.data,"ShippedDate","ShippedDate"), "Please select", new { @id = "ShippedDate" })
+        <input type="submit" value="submit" />
+       <table class="table table-dark table-hover">
+            <tr>
+                <th>OrderiD</th>
+                <th>CustomerID</th>
+                <th>Emp ID</th>
+                <th>Order Date</th>
+                <th>Required Date</th>
+                <th>Shipped Date</th>
+                <th>ShipVia</th>
+                <th>Freight</th>
+                <th>ShipName</th>
+                <th>ShipAddress</th>
+                <th>ShipCity</th>
+                <th>ShipRegion</th>
+                <th>ShipPostalCode</th>
+                <th>ShipCountry</th>
+
+            </tr>
+            @foreach (var item in ViewData["Val"]  as  List<WebAppDevasena.Models.OrdersModel>)
+            {
+                <tr>
+                    <td>@item.OrderID</td>
+                    <td>@item.CustomerID</td>
+                    <td>@item.EmployeeID</td>
+                    <td>@item.OrderDate</td>
+                    <td>@item.RequiredDate</td>
+                    <td>@item.ShippedDate</td>
+                    <td>ShipVia</td>
+                    <td>Freight</td>
+                    <td>ShipName</td>
+                    <td>ShipAddress</td>
+                    <td>ShipCity</td>
+                    <td>ShipRegion</td>
+                    <td>ShipPostalCode</td>
+                    <td>ShipCountry</td>
+                 </tr>
+            }
+        </table>
+     }
+       
+ 
+ }
+
+

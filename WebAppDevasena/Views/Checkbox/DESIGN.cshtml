@@ -1,0 +1,73 @@
+﻿@using WebAppDevasena.Models;
+@model CheckboxModel;
+@{
+    ViewData["Title"] = "DESIGN";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h1>DESIGN</h1>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://www.markuptag.com/bootstrap/5/css/bootstrap.min.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.6/jquery.validate.unobtrusive.min.js"></script>
+
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="signup-form mt-5 border p-4 bg-light shadow">
+                    @using (Html.BeginForm())
+                    {
+                        @Html.AntiForgeryToken()
+                        <h4 class="mb-5 text-secondary">Create Your Account</h4>
+                        <div class="row">
+                            <div class="mb-3 col-md-6">
+                                <label>RollNo<span class="text-danger">*</span></label>
+                                @Html.TextBoxFor(model => model.ROLLNO, new { @class = "form-control", placeholder="Enter Roll No" })
+                                @Html.ValidationMessageFor(model => model.ROLLNO, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label> NAME<span class="text-danger">*</span></label>
+                                @Html.TextBoxFor(model => model.NAME, new { @class = "form-control", placeholder="Enter Name" })
+                                @Html.ValidationMessageFor(model => model.NAME, "", new { @class = "text-danger" })
+                            </div>
+                            <div>
+                                    <label>Qualification<span class="text-danger">*</span></label>
+                                @Html.CheckBoxFor(model=>model.QUALIFICATION,new { @id1 = "BTECH-true"  })
+                                    @Html.Label("BTECH-true", "BTECH")
+                                @Html.CheckBoxFor(model=>model.QUALIFICATION1, new { @id2 = "MTECH-true"  })
+                                    @Html.Label("MTECH-true", "MTECH")
+                                @Html.CheckBoxFor(model=>model.QUALIFICATION2, new { @id3 = "DRGREE-true"  })
+                                    @Html.Label("DEGREE-true", "DEGREE")
+                                </div>
+                           
+                                <div class="col-md-7">
+                                    <p class="text-center mt-3 text-secondary">If you have account,  @Html.ActionLink("Login","DESIGN","Checkbox")</p>
+                                </div>
+                                <div class="col-md-5">
+                                    <input type="submit" class="btn btn-primary float-end" value="Submit">
+                                </div>
+                            </div>
+                    
+                    }
+                </div>
+                </div>
+                </div>
+                </div>
+</body>
+</html>
+<body>
+</body>
+
+

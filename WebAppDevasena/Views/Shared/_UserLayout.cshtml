@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#"> @Html.ActionLink("RegistrationEntry","REGISTER","STD")</a></li>
+        <li><a href="#"> @Html.ActionLink("Login","Login","STD")</a></li>
+        <li><a href="#"> @Html.ActionLink("CarData","InsertCar","Car")</a></li>
+        <li><a href="#"> @Html.ActionLink("DisplaydataCar","Displaycar","Car")</a></li>
+        <li><a href="#"> @Html.ActionLink("DisplayData","DisplayData","STD")</a></li>
+        <li><a href="#"> @Html.ActionLink("Checkbox","DESIGN","Checkbox")</a></li>
+        <li><a href="#"> @Html.ActionLink("DDL","GetDataonDDL","DDL")</a></li>
+        <li><a href="#"> @Html.ActionLink("RoleBased","Access","RoleBased")</a></li>
+        <li><a href="#"> @Html.ActionLink("RegEncrypted","AddData","RegEncrypted")</a></li>
+        <li><a href="#"> @Html.ActionLink("Alert","Alert","STD")</a></li>
+        <li><a href="#"> @Html.ActionLink("DashBoard","DashBoard","STD")</a></li>
+        <li><a href="#"> @Html.ActionLink("Calc","Index","Calculation")</a></li>
+         <li><a href="#"> @Html.ActionLink("Book","AddBook","Book")</a></li>
+         <li><a href="#"> @Html.ActionLink("FamilyTask","InsertFamily","Task")</a></li>
+
+
+
+
+
+
+
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <div>
+        @RenderBody()
+    </div>
+    <footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+</html>

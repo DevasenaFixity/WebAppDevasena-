@@ -1,0 +1,62 @@
+﻿@model IEnumerable<WebAppDevasena.Models.CarModelcs>
+
+@{
+    ViewData["Title"] = "Displaycar";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h1>Displaycar</h1>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Displaycar</title>
+</head>
+<body>
+    <div class="container">
+        Welcome To Display Data Page
+    </div>
+    <table class="table table-striped">
+        <tr>
+            <th>Equipment</th>
+            <th>cartype</th>
+            <th>commodity</th>
+            <th>arrived</th>
+            <th>modified</th>
+            <th>orderid</th>
+            <th>placed</th>
+            <th>released</th>
+            <th>credit</th>
+            <th>days</th>
+            <th>STATUS</th>
+            <th>missedswitch</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Equipment</td>
+                <td>@item.cartype</td>
+                <td>@item.commodity</td>
+                <td>@item.arrived</td>
+                <td>@item.modified</td>
+                <td>@item.orderid</td>
+                <td>@item.placed</td>
+                <td>@item.released</td>
+                <td>@item.credit</td>
+                <td>@item.days</td>
+                <td>@item.missedswitch</td>
+                <td>
+                    @Html.ActionLink("Update","UPDATE","Car", new {cartype = item.cartype},null)
+                    @Html.ActionLink("Delete","DELETE","Car", new { cartype= item.cartype},null)
+                </td>
+            </tr>
+        }
+
+    </table>
+
+
+</body>
+</html>
+
+

@@ -1,0 +1,107 @@
+﻿@using WebAppDevasena.Models;
+@model CarModelcs;
+   
+@{
+    ViewData["Title"] = "InsertCar";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>InsertCar</title>
+    <meta name="viewport" content="width=device-width" />
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://www.markuptag.com/bootstrap/5/css/bootstrap.min.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.6/jquery.validate.unobtrusive.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="signup-form mt-5 border p-4 bg-light shadow">
+                    @using (Html.BeginForm())
+                    {
+                        @Html.AntiForgeryToken()
+                        <h4 class="mb-5 text-secondary">Create Your Account</h4>
+                        <div class="row">
+                            <div class="mb-3 col-md-6">
+                                <label>Equipment<span class="text-danger">*</span></label>
+                                @Html.TextBoxFor(model => model.Equipment, new { @class = "form-control", placeholder="Enter Equipment" })
+                                @Html.ValidationMessageFor(model => model.Equipment, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label> cartype<span class="text-danger">*</span></label>
+                                @Html.TextBoxFor(model => model.cartype, new { @class = "form-control", placeholder="Enter cartype" })
+                                @Html.ValidationMessageFor(model => model.cartype, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label>commodity<span class="text-danger">*</span></label>
+                                @Html.TextBoxFor(model => model.commodity, new { @class = "form-control", placeholder="Enter commodity" })
+                                @Html.ValidationMessageFor(model => model.commodity, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label>arrived<span class="text-danger">*</span></label>
+                                @Html.EditorFor(model => model.arrived, new { htmlAttributes = new { @class = "form-control input-md", @placeholder = "arrived"} })
+                                @Html.ValidationMessageFor(model => model.arrived, "", new { @class = "text-danger" })
+                            </div>
+
+                            <div class="mb-3 col-md-6">
+                                <label>modified<span class="text-danger">*</span></label>
+                                @Html.EditorFor(model => model.modified, new { htmlAttributes = new { @class = "form-control input-md", @placeholder = "modified"} })
+                                @Html.ValidationMessageFor(model => model.modified, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label>orderid<span class="text-danger">*</span></label>
+                                @Html.EditorFor(model => model.orderid, new { htmlAttributes = new { @class = "form-control input-md", @placeholder = "orderid"} })
+                                @Html.ValidationMessageFor(model => model.orderid, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label>placed<span class="text-danger">*</span></label>
+                                @Html.EditorFor(model => model.placed, new { htmlAttributes = new { @class = "form-control input-md", @placeholder = "placed"} })
+                                @Html.ValidationMessageFor(model => model.placed, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label>released<span class="text-danger">*</span></label>
+                                @Html.EditorFor(model => model.released, new { htmlAttributes = new { @class = "form-control input-md", @placeholder = "released"} })
+                                @Html.ValidationMessageFor(model => model.released, "", new { @class = "text-danger" })
+                            </div>
+                           
+                            <div class="mb-3 col-md-6">
+                                <label>credit<span class="text-danger">*</span></label>
+                                @Html.TextBoxFor(model => model.credit, new { @class = "form-control", placeholder="Enter credit" })
+                                @Html.ValidationMessageFor(model => model.credit, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label>days<span class="text-danger">*</span></label>
+                                @Html.TextBoxFor(model => model.days, new { @class = "form-control", placeholder="Enter days" })
+                                @Html.ValidationMessageFor(model => model.days, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label>missedswitch<span class="text-danger">*</span></label>
+                                @Html.TextBoxFor(model => model.missedswitch, new { @class = "form-control", placeholder="Enter missedswitch" })
+                                @Html.ValidationMessageFor(model => model.missedswitch, "", new { @class = "text-danger" })
+                            </div>
+                         
+                                <div class="col-md-7">
+                                <p class="text-center mt-3 text-secondary">If you have account,  @Html.ActionLink("display inserted data","Displaycar","Car")</p>
+                                </div>A
+                                <div class="col-md-5">
+                                    <input type="submit" class="btn btn-primary float-end" value="Submit">
+
+                                </div>
+                            </div>
+                        
+                    }
+                </div>
+
+</body>
+</html>
+

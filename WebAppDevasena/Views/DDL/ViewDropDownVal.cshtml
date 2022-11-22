@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewData["Title"] = "ViewDropDownVal";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h1>ViewDropDownVal</h1>
+
+@Html.DropDownList("test",new SelectList(ViewBag.Data,"CustomerID","CustomerID"),"please select",new { @id="ddlfruits"}) 
+    
+

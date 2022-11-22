@@ -1,0 +1,180 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebAppDevasena
+build_property.RootNamespace = WebAppDevasena
+build_property.ProjectDir = C:\Users\lebaka devasena\source\repos\WebAppDevasena\WebAppDevasena\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\lebaka devasena\source\repos\WebAppDevasena\WebAppDevasena
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/Book/AddBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xBZGRCb29rLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/Book/DisplayBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xEaXNwbGF5Qm9vay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/Calculation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsY3VsYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/Car/Displaycar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyXERpc3BsYXljYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/Car/InsertCar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyXEluc2VydENhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/Checkbox/DESIGN.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tib3hcREVTSUdOLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/Customer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/DDL/DDLByCntry.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRERMXERETEJ5Q250cnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/DDL/GetByshpCntry.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRERMXEdldEJ5c2hwQ250cnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/DDL/GetByshpddate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRERMXEdldEJ5c2hwZGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/DDL/GetDataByOrderDate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRERMXEdldERhdGFCeU9yZGVyRGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/DDL/GetDataByShpdDate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRERMXEdldERhdGFCeVNocGREYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/DDL/GetDataonDDL.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRERMXEdldERhdGFvbkRETC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/DDL/GetOrderDateOnDDL.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRERMXEdldE9yZGVyRGF0ZU9uRERMLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/DDL/ViewDropDownVal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRERMXFZpZXdEcm9wRG93blZhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/RegEncrypted/AddData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnRW5jcnlwdGVkXEFkZERhdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/RegEncrypted/Encryptlogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnRW5jcnlwdGVkXEVuY3J5cHRsb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/RoleBased/Access.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZUJhc2VkXEFjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/RoleBased/Display.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZUJhc2VkXERpc3BsYXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/Shared/_UserLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2VyTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/STD/ADMIN.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1REXEFETUlOLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/STD/Alert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1REXEFsZXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/STD/DashBoard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1REXERhc2hCb2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/STD/DisplayData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1REXERpc3BsYXlEYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/STD/Forgetpassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1REXEZvcmdldHBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/STD/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1REXEZvcmdvdFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/STD/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1REXEhvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/STD/HomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1REXEhvbWVQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/STD/LOGIN.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1REXExPR0lOLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/STD/REGISTER.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1REXFJFR0lTVEVSLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/STD/VerifyOtp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU1REXFZlcmlmeU90cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/Task/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/Task/Insert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xJbnNlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/Task/InsertFamily.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xJbnNlcnRGYW1pbHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lebaka devasena/source/repos/WebAppDevasena/WebAppDevasena/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-y1aw0nrgg0

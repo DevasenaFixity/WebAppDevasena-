@@ -1,0 +1,84 @@
+﻿
+@{
+    ViewData["Title"] = "Display";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h1>Display</h1>
+<h1>DisplayData</h1>
+<div class="container">
+    Welcome To Display Data Page
+</div>
+
+<table class="table table-striped">
+    <tr>
+        <tr>
+        <th>REFID</th>
+        <th>ROLLNO</th>
+        <th>NAME</th>
+        <th>EMAILID</th>
+        <th>PASSWORD</th>
+        <th>ROLE</th>
+        <th>DOB</th>
+        <th>ADDRESS</th>
+        <th>FEE</th>
+        <th>QUALIFICATION</th>
+        <th>GENDER</th>
+        <th>BRANCH</th>
+        <th>MOBILE</th>
+        <th>STATUS</th>
+        <th>Action</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.REFID</td>
+
+            <td>@item.ROLLNO</td>
+
+            <td>@item.NAME</td>
+
+            <td>@item.EMAILID</td>
+
+            <td>@item.PASSWORD</td>
+
+            <td>@item.ROLE</td>
+
+           
+            <td>@item.DOB</td>
+
+            
+            <td>@item.ADDRESS</td>
+
+            <td>@item.FEE</td>
+
+            <td>@item.QUALIFICATION</td>
+
+            
+            <td>@item.GENDER</td>
+
+            <td>@item.BRANCH</td>
+
+            <td>@item.MOBILE</td>
+
+            
+            <td>@item.STATUS</td>
+            <td>
+                @Html.ActionLink("Update","EDIT","STD",new{REFID=item.REFID},null)
+                @Html.ActionLink("Delete","DeleteData","STD",new{REFID=item.REFID},new { onclick = "return confirm('Are sure wants to delete?');" })
+                </td>
+            }
+            else
+            {
+                <td></td>
+            }
+        </tr>
+    }
+
+</table>
+               
+            
+
+
+   
+

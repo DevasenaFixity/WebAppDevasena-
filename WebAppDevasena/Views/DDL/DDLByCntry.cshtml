@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewData["Title"] = "DDLByCntry";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h7>DDLByCntry</h7>
+@Html.BeginForm("DDLByCntry","DDL",FormMethod.Post)
+{
+    @Html.DropDownList("test", new SelectList(ViewBag.data,"ShipCountry","ShipCountry"),"Please select", new { @id ="ShipCountry"})
+   <table class="table table-dark table-hover">
+  
+}
+</table>
+
+
